@@ -6,7 +6,6 @@ const Navbar = () => {
     <header className="bg-white dark:bg-gray-800 shadow-md">
       <nav className="container mx-auto flex justify-between items-center p-4">
         <div className="flex items-center gap-2">
-          {/* Ajout du logo */}
           <img
             src="/transparent.png"
             alt="Farmly Logo"
@@ -31,6 +30,14 @@ const Navbar = () => {
               className="text-gray-700 hover:text-blue-500 dark:text-gray-300 dark:hover:text-blue-400 transition"
             >
               Support
+            </Link>
+          </li>
+          <li>
+            <Link
+              href="/privacy"
+              className="text-gray-700 hover:text-blue-500 dark:text-gray-300 dark:hover:text-blue-400 transition"
+            >
+              Confidentialité
             </Link>
           </li>
         </ul>
